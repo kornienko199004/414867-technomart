@@ -1,0 +1,38 @@
+body {	
+	font-size: 13px;
+	line-height: 24px;
+	color: black;
+	font-weight: normal;
+	font-family: "PT Sans Regular",	"Arial", sans-serif;
+}
+.popular-products h2, .popular-producers h2 {	
+	font-size: 30px;
+	line-height: 30px;
+	color: #3d546e;
+	font-weight: normal;
+	font-family: "Cuprum Regular",	"Arial", sans-serif;
+	text-transform: uppercase;
+}
+.catalog-item h3  {	
+	font-size: 18px;
+	line-height: 20px;
+	color: black;
+	font-weight: bold;
+	font-family: "PT Sans",	"Arial", sans-serif;
+}
+.services-navigation li h3 {	
+	font-size: 36px;
+	line-height: 24px;
+	color: #3d546e;
+	font-weight: normal;
+	font-family: "Cuprum Regular",	"Arial", sans-serif;
+	text-transform: uppercase;
+}
+.technomart-company h2, .contacts h2 {
+	font-size: 30px;
+	line-height: 24px;
+	color: black;
+	font-weight: normal;
+	font-family: "Cuprum Regular",	"Arial", sans-serif;
+	text-transform: uppercase;
+}
