@@ -36,43 +36,47 @@
 					</div>
 				</div>
 				<div class="header__inner header__inner--middle">
-					<p class="header__description">
-						Интернет-магазин<br>
-						строительных материалов<br>
-						и инструментов для ремонта
-					</p>
-					<p class="header__contacts">
+					<div class="header__description-wrapp">
+						<p class="header__description">
+							Интернет-магазин<br>
+							строительных материалов<br>
+							и инструментов для ремонта
+						</p>
+					</div>
+					<div class="header__contacts">
 						<span class="header__phone">+7 (812) 555-05-55</span>
-						<span class="header__address">г.Санкт-Петербург, ул.Б.Конющенная, д.19/8</span>
-					</p>
-					<ul class="user-navigation">
-						<li class="user-navigation__user-name">
-							<span class="user-navigation__image user-navigation__image--user">
-								<svg xmlns="http://www.w3.org/2000/svg" width="20" height="18" viewBox="0 0 20 18">
-									<path fill="#c5c5c5" d="M17.881 14.166c-2.144-.735-4.256-1.666-5.207-2.39-.657-.501-.77-1.618-.517-2.415 1.118-.903 1.864-2.477 1.864-4.278C14.021
-									2.276 12.221 0 10 0S5.979 2.276 5.979 5.083c0 1.801.746 3.374 1.863 4.277.253.798.141 1.915-.517 2.416-.95.724-3.063 1.654-5.207 2.39S0 18
-									0 18h20s.025-3.099-2.119-3.834z"/>
-								</svg>
-							</span>
-							<a href="#">Равшан Джамшутович</a>
-						</li>
-						<li class="user-navigation__logout-link">	
-							<a href="#">
-								<span class="visually-hidden">Выход</span>						
-								<span class="user-navigation__image user-navigation__image--logout">
-									<svg xmlns="http://www.w3.org/2000/svg" width="21" height="17" viewBox="0 0 21 17">
-										<g fill="#c5c5c5">
-											<path fill="#c5c5c5" d="M21 8.5L12.125 0v6h-6v5h6v6z"/>
-											<path fill="#c5c5c5" d="M3.106 13.952V3.048c.018-.376.171-1.057 1.01-1.057h5.027V0H4.116C1.938 0
-											1.112 1.81 1.087 3.027v10.946C1.112 15.189 1.938 17 4.116 17h5.027v-1.99H4.116c-.839 0-.992-.683-1.01-1.058z"/>
-										</g>
+						<span class="header__address">г. Санкт-Петербург, ул. Б. Конющенная, д. 19/8</span>
+					</div>
+					<div class="header__wrapper-navigation">
+						<ul class="user-navigation">
+							<li class="user-navigation__user-name">
+								<span class="user-navigation__image user-navigation__image--user">
+									<svg xmlns="http://www.w3.org/2000/svg" width="20" height="18" viewBox="0 0 20 18">
+										<path fill="#c5c5c5" d="M17.881 14.166c-2.144-.735-4.256-1.666-5.207-2.39-.657-.501-.77-1.618-.517-2.415 1.118-.903 1.864-2.477 1.864-4.278C14.021
+										2.276 12.221 0 10 0S5.979 2.276 5.979 5.083c0 1.801.746 3.374 1.863 4.277.253.798.141 1.915-.517 2.416-.95.724-3.063 1.654-5.207 2.39S0 18
+										0 18h20s.025-3.099-2.119-3.834z"/>
 									</svg>
 								</span>
-							</a>						
-						</li>
-						<li class="user-navigation__my-shoping-link"><a href="#">Мои заказы</a></li>
-						<li class="user-navigation__acount-link"><a href="#">Личный кабинет</a></li>
-					</ul>
+								<a href="#">Равшан Джамшутович</a>
+							</li>
+							<li class="user-navigation__logout-link">	
+								<a href="#">
+									<span class="visually-hidden">Выход</span>
+									<span class="user-navigation__image user-navigation__image--logout">
+										<svg xmlns="http://www.w3.org/2000/svg" width="21" height="17" viewBox="0 0 21 17">
+											<g fill="#c5c5c5">
+												<path fill="#c5c5c5" d="M21 8.5L12.125 0v6h-6v5h6v6z"/>
+												<path fill="#c5c5c5" d="M3.106 13.952V3.048c.018-.376.171-1.057 1.01-1.057h5.027V0H4.116C1.938 0
+												1.112 1.81 1.087 3.027v10.946C1.112 15.189 1.938 17 4.116 17h5.027v-1.99H4.116c-.839 0-.992-.683-1.01-1.058z"/>
+											</g>
+										</svg>
+									</span>
+								</a>
+							</li>
+							<li class="user-navigation__my-shoping-link"><a href="#">Мои заказы</a></li>
+							<li class="user-navigation__acount-link"><a href="#">Личный кабинет</a></li>
+						</ul>
+					</div>
 				</div>
 				<nav class="main-navigation">
 					<ul class="main-navigation__list">
@@ -86,7 +90,6 @@
 					</ul>
 				</nav>
 			</header>
-		
 		<main class="container">
 			<div class="container__wrapper">
 				<ul class="breadcrumbs">
@@ -97,7 +100,6 @@
 				</ul>
 				<h1 class="container__title">Перфораторы</h1>
 			</div>
-			
 			<div class="container__column-wrapper">
 				<div class="container__wrapper container__wrapper--lelf-column">
 					<section class="filter">
@@ -113,10 +115,10 @@
 									<div class="toggle toggle-max"></div>
 								</div>
 								<label class="visually-hidden" for="min-price">Цена от:</label>
-								<input class="filter__input" id="min-price" type="text" value="0">						
+								<input class="filter__input" id="min-price" type="text" value="0">
 								<span class="filter__prices-span">&mdash;</span>
 								<label class="visually-hidden" for="max-price">Цена до:</label>
-								<input class="filter__input" id="max-price" type="text" value="30000">						
+								<input class="filter__input" id="max-price" type="text" value="30000">
 							</div>
 							<div class="filter__producers">
 								<h2 class="filter__caption">Производители:</h2>
@@ -179,7 +181,7 @@
 						<h2 class="visually-hidden catalog__title">Каталог товаров</h2>
 						<nav class="filter-sorting">
 							<ul class="filter-sorting__list">
-								<li class="filter-sorting__item">									
+								<li class="filter-sorting__item">
 									<h3 class="filter-sorting__title">Сортировка:</h3>
 								</li>							
 								<li class="filter-sorting__item filter-sorting__item--current"><a>По цене</a></li>
@@ -414,7 +416,7 @@
 			<section class="about-product">
 				<div class="about-product__inner">
 					<h2 class="about-product__title">Пара слов о перфораторах</h2>
-					<p class="about-product__description">Перфоратор - универсальный строительный инструмент. Предназначен для сверления
+					<p class="about-product__description">Перфоратор &mdash; универсальный строительный инструмент. Предназначен для сверления
 					и долбления отверстий в кирпиче, бетоне и камне.<br> Существуют электромеханические
 					и пневматические перфораторы. Современные модели могут выполнять функции дрели, шуруповерта
 					и отбойного молотка. В ассортиментном ряду есть выбор &laquo;трехрежимников&raquo;: в одном
@@ -422,14 +424,14 @@
 				</div>
 			</section>
 		</main>			<footer class="footer">
-				<div class="footer__inner footer__inner--top">						
+				<div class="footer__inner footer__inner--top">
 					<div class="footer__logo-contacts-wrapper">
 						<p class="footer__logo">
 							Техномарт
 						</p>
 						<p class="footer__contacts">
-							<span class="footer__address">г.Санкт-Петербург, ул.Б.Конющенная, д.19/8</span><br>
-							<span class="footer__phone">+7(812)555-05-55</span>
+							<span class="footer__address">г. Санкт-Петербург, ул. Б. Конющенная, д. 19/8</span><br>
+							<span class="footer__phone">+7 (812) 555-05-55</span>
 						</p>
 					</div>
 					<nav class="footer-navigation">
@@ -468,14 +470,13 @@
 							</p>
 							<p class="footer__feedback">
 								Разработано &mdash;<br>
-								<a class="footer__feedback-link" href="#">htmlacademy.ru</a>
+								<a class="footer__feedback-link" href="https://htmlacademy.ru/intensive/htmlcss">htmlacademy.ru</a>
 							</p>
 						</div>
 					</div>
 				</div>
 			</footer>
 		</div>
-		
 		<section class="modal modal--product-in-cart">
 			<div class="modal__inner">
 				<button class="modal__button-close"><span class="visually-hidden">Закрыть</span></button>
