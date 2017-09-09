@@ -1104,7 +1104,10 @@ input[type="radio"].visually-hidden {
 	color: #ffffff;
 	z-index: 0;
 }
-
+.product__price:hover,
+.product__old-price:hover {
+	cursor: pointer;
+}
 .product__price::before {
 	content: "";
 	position: absolute;
@@ -2281,6 +2284,7 @@ input[type="radio"].visually-hidden {
 
 .modal {
 	margin: 0 auto;
+	display: none;
 }
 
 .modal__button-close {
