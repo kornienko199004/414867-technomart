@@ -845,12 +845,6 @@ input[type="radio"].visually-hidden {
 	height: 40px;
 	background-image: url("../img/icon-right.svg");
 }
-/*
-#slide-1:focus ~ .slider__control .slider__label[for="slide-1"], 
-#slide-2:focus ~ .slider__control .slider__label[for="slide-2"] { 
-	outline: 1;
-	outline: 2px solid rgb(59, 188, 227);
-}*/
 
 #slide-1:checked ~ .slider__control .slider__label[for="slide-1"], 
 #slide-2:checked ~ .slider__control .slider__label[for="slide-2"] { 
