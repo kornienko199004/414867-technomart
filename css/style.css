@@ -282,7 +282,7 @@ input[type="radio"].visually-hidden {
 .header__cart a:active{
 	color:rgb(139, 142, 148);
 	
-	background-color&:rgb(22, 29, 41);
+	background-color:rgb(22, 29, 41);
 }
 
 .header__cart--not-empty {
