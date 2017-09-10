@@ -1095,14 +1095,10 @@ input[type="radio"].visually-hidden {
 	color:rgb(255, 255, 255);
 	z-index:0;
 }
-<<<<<<< HEAD
 .product__price:hover,
 .product__old-price:hover {
 	cursor:pointer;
 }
-=======
-
->>>>>>> parent of f3de230... Сделал изменения по тз
 .product__price::before {
 	content:"";
 	position:absolute;
@@ -2250,12 +2246,8 @@ input[type="radio"].visually-hidden {
 }
 
 .modal {
-<<<<<<< HEAD
 	margin:0 auto;
 	display:none;
-=======
-	margin: 0 auto;
->>>>>>> parent of f3de230... Сделал изменения по тз
 }
 
 .modal__button-close {
